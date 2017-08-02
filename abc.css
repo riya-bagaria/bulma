@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    overflow-x: hidden;
 }
  .banner {
      background: url("cusine.jpg");
@@ -21,11 +22,6 @@ body{
      margin-top: 350px;
      box-shadow: 0 2px 3px rgba(0,0,0,.4);
  }
- /*.main-nav-scrolled{
-     position: fixed;
-     top: 0;
-     width: 100%;
- }*/
  .fixed{
      position:fixed;
      top: 0;
@@ -61,10 +57,6 @@ body{
   border-radius: 50%;
   background-color: white;
 }
-
-
-
-
 /*start progress bar*/
 .circles {
   margin-bottom: -10px;
@@ -117,3 +109,26 @@ body{
 .dld{
     margin: 0 auto;
 }
+.contact{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.7) 100%),url("map.jpg");
+    height: 500px;
+    background-size: cover;
+    
+    z-index: 100;
+}
+
+.box:not(:last-child) {
+    margin-bottom: 0;
+}
+.contact-heading{
+    padding-top: 20px;
+    color: white;
+}
+.circle-contact{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: black;
+    /*margin: 20px 100px;*/
+}
+
