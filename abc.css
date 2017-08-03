@@ -49,6 +49,7 @@ body{
  .boxy{
      width:100%;
      background-color: #323B43;
+     padding-bottom: 50px;
  }
  #container {
   margin: 20px;
@@ -105,9 +106,9 @@ body{
     /*margin-left: 20%;*/
     
 }
-.dld{
+/*.dld{
     margin: 0 auto;
-}
+}*/
 .contact{
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.7) 100%),url("map.jpg");
     height: 500px;
